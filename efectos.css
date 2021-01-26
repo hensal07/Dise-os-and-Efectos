@@ -1,0 +1,737 @@
+
+
+/*-----------------------------------------------------------SLIDE-----------------------------------------*/
+.slide-contenedor{
+  perspective: 800px;
+max-width: 500px;
+text-align: center;
+min-height: 565px;
+width: 100%;
+height: auto;
+position: relative;
+overflow: hidden;
+margin: auto;
+margin-left: 25%;
+margin: auto;
+text-align: center;
+overflow: hidden;
+user-select: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ************************************++++CONTACTO************************************ */
+
+.slide-contenedor h4{
+  font-size: calc(1em + 1vw);
+  font-size: 33px;
+  margin: center;
+font-weight: 900;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(139, 69, 19, 0.952);
+  user-select: none;
+  padding-bottom: 0px;
+  font-weight: 900;  /* le da el contraste al texto*/
+  margin-top: 50px;
+  margin-bottom: 2px;
+  margin-left: 135px;
+  z-index: inherit;
+  position: absolute;
+  justify-content: center;
+
+}
+
+.espacio{
+  height: 10px;
+}
+.slide-contenedor h3{
+   
+  font-size: 33px;
+  margin: center;
+font-weight: 900;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(7, 58, 82);
+  user-select: none;
+  padding-bottom: 0px;
+  font-weight: 900;  /* le da el contraste al texto*/
+  margin-top: 30px;
+  margin-bottom: 2px;
+  text-align: center;
+  justify-content: center;
+
+}
+.miSlider img{
+  font-size: calc(1em + 1vw);
+  width: 600px;
+    height: 500px;
+  object-fit:cover;
+  vertical-align: bottom;
+  transition: 2s;
+  text-align: center;
+  overflow: hidden;
+  left: 10px;
+  right: 10px;
+  flex-wrap: wrap;
+   margin-left: 3px;
+  margin-right: 3px;
+    }
+
+.direcciones a{
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  user-select: none;
+  overflow: hidden;
+
+   
+  
+}
+.direcciones a:hover{
+  background: rgba(189, 37, 37, 0.329);
+  transition: .5s;
+  overflow: hidden;
+}
+.barras{
+  position: absolute;
+  bottom: 50px;       /********DISTACIA ENTRE LA BARRA Y LA IMAGEN*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.direcciones{
+  width: 100%;
+ bottom: 28%;
+  position: absolute;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  overflow: hidden;
+}
+.barra{
+  cursor: pointer;
+  height: 5px;
+  width: 35px;
+  margin: 0 2px;
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  margin-left: 5px;
+  overflow: hidden;
+  }
+
+  .actives{
+    background-color: #791409;
+      }
+    
+    
+      .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+        @keyframes fade {
+          from {opacity: .4;}
+          to{opacity: 1 ;}
+          
+        }
+        .active{
+          background-color: var(--fondo);
+            }
+
+
+  .miSlider{
+    display: none;
+    transition: 2s;
+    max-height: 100vh;
+    user-select: none;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    }
+
+
+
+
+
+
+ 
+ /*******************************************************+SLIDE++++++++++++++++++++++++++++++++++++*/
+
+
+.textos8{
+  width: 50%;
+  color:#fff;
+  justify-content: center;
+}
+
+.textos9{
+  width: 50%;
+  color:#fff;
+  justify-content: center;
+}
+  /* .textos1 a{
+    display: inline-block;
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    animation: arriba 1s ease-in;
+
+} */
+.contenedor{ /*contenedor de la pagina */
+  margin: auto;
+  padding: var(--margenes2)0; /*espacios entre nav del contenedor*/
+  width: 90%;
+
+  min-height: 600px;
+  height: auto;
+  max-width: 1300px;
+  width: 100vw;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 15px;  /*espacios entre dive parte alta*/
+  padding-bottom: 20px;/*espacios entre dive parte baja*/
+
+  }
+  
+  .contenedor5 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+    color: #2c3e50 ;
+}
+  
+
+  .contenedor h3{ /*todos los h3 dentro del contenedor---------------------------*/
+    font-size: var(--titulos);
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 58, 82);
+    user-select: none;
+    padding-bottom: 0px;
+    font-weight: 900;  /* le da el contraste al texto*/
+    margin-top: 20px;
+    margin-bottom: 2px;
+    z-index: 1;
+    align-content: center;
+  }
+
+  .contenedor h9{ /*todos los h3 dentro del contenedor---------------------------*/
+    font-size: var(--titulos);
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 58, 82);
+    user-select: none;
+    padding-bottom: 0px;
+    font-weight: 900;  /* le da el contraste al texto*/
+    margin-top: 20px;
+    margin-bottom: 2px;
+    position: absolute;
+    z-index: 1;
+  }
+  .caja{
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    text-align: center;
+    background: inherit;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    align-content: center;
+    color: darkblue;
+    
+  }
+  .boton{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    background: inherit;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+    .slide-contenedor p{ /*todos los p dentro del contenedor*/
+      font-size: calc(1em + 1vw);
+      font-size: var(--subtitulos);
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: unset;
+      position: relative;
+      color: rgb(7, 58, 82);
+      user-select: none;
+      font-weight: 900;
+    padding-top: 0px;
+      }
+
+
+
+
+
+  .slide-contenedor h4{
+    font-size: calc(1em + 1vw);
+    font-size: 33px;
+    margin: center;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(139, 69, 19, 0.952);
+    user-select: none;
+    padding-bottom: 0px;
+    font-weight: 900;  /* le da el contraste al texto*/
+    margin-top: 50px;
+    margin-bottom: 2px;
+    margin-left: 135px;
+    z-index: inherit;
+    position: absolute;
+    justify-content: center;
+
+  }
+
+  .espacio{
+    height: 40px;
+  }
+  .slide-contenedor h3{
+     
+    font-size: 33px;
+    margin: center;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(7, 58, 82);
+    user-select: none;
+    padding-bottom: 0px;
+    font-weight: 900;  /* le da el contraste al texto*/
+    margin-top: 60px;
+    margin-bottom: 2px;
+    text-align: center;
+    justify-content: center;
+
+  }
+ 
+ 
+
+      
+      
+        .fade{
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+          @keyframes fade {
+            from {opacity: .4;}
+            to{opacity: 1 ;}
+            
+          }
+          .active{
+            background-color: var(--fondo);
+              }
+
+
+/* ************************************FOTOS LIGH**************************************** */
+
+
+.contenedor9{
+  user-select: none;
+  width: 100%;
+  height: 535PX;
+  top: 0;
+  height: auto;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+.contenedor9 h3{
+  font-size: var(--titulos);
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 58, 82);
+    user-select: none;
+    padding-bottom: 0px;
+    font-weight: 900;  /* le da el contraste al texto*/
+    margin-top: 20px;
+    margin-bottom: 2px;
+    z-index: 1;
+    align-content: center;
+  }
+.gallery9{
+  user-select: none;
+  background: #f2f2f2;
+}
+
+.contenedor9-galeria9{
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.img-galeria9{
+  user-select: none;
+  height: 220px;
+  width: 30%;
+  display: block;
+  margin-bottom: 15px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+  cursor: pointer;
+}
+
+.imagen-light{
+  user-select: none;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.534);
+  transform: translate(100%);
+  transition: transform .2s ease-in-out;
+}
+
+.agregar-imagen{
+  user-select: none;
+  width: 60%;
+  transform: scale(0);
+  border-radius: 10px;
+  transition: transform .3s .2s;
+}
+
+.showImage{
+  user-select: none;
+  transform: scale(1);
+}
+
+.show{
+  user-select: none;
+  transform: translate(0);
+}
+
+.close{
+  user-select: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  max-width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+}
+
+
+
+/* ************************************************EFECTO CARRUSEL****************************** */
+
+footer2{background: peachpuff;}
+
+
+  .iconos{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 1;
+    margin-top: 100px;
+    user-select: none;
+  
+  }
+  .fab{
+    font-size: 100px;
+    color: #fff;
+    margin: auto;
+    display: inline-block;
+  
+  }
+  footer10 p{
+    margin-top: var(--espacios);
+  }
+
+            
+            
+          @media screen and (max-width: 700px){
+
+
+            .nav2{
+              color: #fff; 
+            }
+          
+            .icono{
+              display: block;
+              cursor: pointer;
+              }
+          
+          
+              .fab{
+                font-size: 65px;
+                color: #fff;
+                margin: auto;
+                display: inline-block;
+              
+              }
+              
+              .direcciones{
+                width: 50%;
+               margin-top: 30%;
+                position: absolute;
+                 display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 40px;
+                overflow: hidden;
+              }
+
+              nav .enlaces a:hover{
+                border-bottom: 0px solid #1498a4;
+                transition: 0.6s;
+              }
+              nav .enlaces a{ 
+            
+                display: inline-block;
+                padding: 0px 0;
+                margin-right: 17px;
+                font-size: 17px;
+                font-weight: 300;
+                text-decoration: none;
+                border-bottom: 8px solid transparent; /*es lo que nos aparece bajo el menu la linea sombreada*/
+                color: inherit;
+                z-index: 1;
+                overflow: hidden;
+                font-size: calc(1em + 1vw)
+                
+              }
+              nav .enlaces a{
+                display: inline-block;
+                padding: 0px 0;
+                margin-right: 17px;
+                font-size: 12px;
+                font-weight: 300;
+                text-decoration: none;
+                border-bottom: 3px solid transparent;
+                color: inherit;
+              }
+              
+              nav .enlaces a:hover{
+                border-bottom: 3px solid #1498a4;
+                transition: 0.6s;
+              }
+
+              .slide-contenedor h3{
+     
+                font-size: 33px;
+                margin: center;
+              font-weight: 900;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:rgb(7, 58, 82);
+                user-select: none;
+                padding-bottom: 0px;
+                font-weight: 900;  /* le da el contraste al texto*/
+                margin-top: 30px;
+                margin-bottom: 2px;
+                text-align: center;
+                justify-content: center;
+            
+              }
+              
+    
+           @media screen and (max-width: 550px){
+            .slide-contenedor{
+    
+              max-width: 500px;
+              text-align: center;
+              min-height: 565px;
+              width: 100%;
+              height: auto;
+              position: relative;
+              overflow: hidden;
+              margin: auto;
+              margin-left: 25%;
+              margin: auto;
+              text-align: center;
+              overflow: hidden;
+              user-select: none;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+            }
+           
+            min-height: 600px;
+            
+          }
+          .direcciones{
+            width: 85%;
+           bottom: 30%;
+           margin-left: 40px;
+            
+          }
+          .barras{
+            position: absolute;
+            bottom: 80px;
+            
+          
+          }
+        
+        }
+
+
+        @media screen and (max-width: 500px){
+           
+          .direcciones{
+            width: 90%;
+           bottom: 30%;
+
+           margin-left: 26px;
+            
+          }
+          .barras{
+            position: absolute;
+            bottom: 70px;
+            
+          
+          }
+         }
+/*******************************************************++500*****************************************/
+@media screen and (max-width: 450px){
+.direcciones{
+  width: 87%;
+ bottom: 35%;
+ margin-left: 30px;
+}
+.barras{
+  position: absolute;
+  bottom: 120px;
+  }
+
+ 
+
+}
+
+
+@media screen and (max-width: 400px){
+  .direcciones{
+    width: 85%;
+   bottom: 40%;
+   margin-left: 25px;
+
+    
+  }
+  .barras{
+    position: absolute;
+    bottom: 140px;
+  }
+
+    .caja{
+      height: 200px;
+      width: 400px;
+      position: absolute;
+      text-align: center;
+      background: inherit;
+      flex-wrap: wrap;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 16px;
+      justify-content: center;
+      align-content: center;
+      color: darkblue;
+      
+    
+  
+  }
+
+}
+@media screen and (max-width: 350px){
+  .direcciones{
+    width: 89%;
+   bottom: 44%;
+    
+  }
+
+ 
+  .barras{
+    position: absolute;
+    bottom: 200px;
+    
+  
+  }
+  .caja{
+    height: 200px;
+    width: 360px;
+    position: absolute;
+    text-align: center;
+    background: inherit;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    justify-content: space-around;
+    align-content: center;
+    color: darkblue;
+
+    
+  
+
+}}
+@media (min-width: 330px) {
+  .miSlider img{
+    font-size: calc(1em + 1vw);
+    width: 100%;
+    max-height: 100vh;
+    height: auto;
+    object-fit:cover;
+    vertical-align: bottom;
+    transition: 2s;
+    text-align: center;
+    overflow: hidden;
+    left: 10px;
+    right: 10px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+      }
+ }
+@media only screen and (width: 330px)  {
+  .direcciones{
+    width: 94%;
+   bottom: 45%;
+   margin-left: 11px;
+    
+  }
+  .barras{
+    position: absolute;
+    bottom: 100px;
+    
+  
+  }
+
+  .barras{
+    position: absolute;
+    bottom: 240px;
+    
+  
+  }
+  .caja{
+    height: 200px;
+    width: 250px;
+ 
+
+}
+                      }
+
+
+  
+  
+
+@media screen and ( max-height: 320){
+                        
+ 
+ 
+
+ }
+  
